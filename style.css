@@ -1,0 +1,103 @@
+/* Navbar Section */
+:root {
+    --primary-color: #2f4054;
+    --accent-color: #ffd24c;
+  }
+  :root * {
+    border-radius: 0;
+  }
+  h2 {
+      color: var(--primary-color);
+  }
+  .navbar, .navbar .dropdown-menu {
+    background-color: var(--primary-color);
+  }
+  .navbar-brand {
+    color: #ffffff;
+    font-size: 1.5rem;
+  }
+  .navbar .navbar-nav .nav-link {
+    color: #ffffff;
+  }
+  @media screen and (min-width: 768px) {
+    .navbar .navbar-nav .nav-link {
+      font-size: 1.2rem;
+      padding: 0.5rem 1.5rem;
+    }
+  }
+  /* Hero Section */
+  .hero {
+    background: url("https://www.shutterstock.com/image-photo/calm-weather-on-sea-ocean-600nw-2212935531.jpg") center no-repeat;
+    background-size: cover;
+    height: 50vh;
+  }
+  .hero .hero-content {
+    width: 90%;
+  }
+  .btn:not(.btn-outline-light) {
+    background-color: var(--accent-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 0.7rem 1.2rem;
+  }
+  
+  @media screen and (orientation: landscape) {
+    .hero {
+      height: 70vh;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .hero .hero-content {
+      width: 50%;
+    }
+  }
+  /* Second Section */
+  .why-us .quote-bg {
+    background-color: var(--primary-color);
+    height: 30vw;
+  }
+  @media screen and (orientation: landscape) {
+    .why-us .quote-bg {
+      height: 35vh;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .container {
+      padding: 2rem 5rem;
+    }
+  }
+  .why-us {
+    color: #ffffff;
+  }
+  @media screen and (max-width: 991px) {
+    .why-us {
+      padding: 2rem 1rem 0;
+      color: #000000;
+    }
+  }
+  .why-sub-section .img-fluid {
+    border: 0.5rem solid #ffffff;
+  }
+  /* About Section */
+  @media screen and (min-width: 992px) {
+    .about h2 {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-40%);
+      background-color: rgba(0, 0, 0, 0.4);
+      color: #ffffff;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .about {
+      text-align: center;
+      padding: 0 1.5rem;
+    }
+  }
+  .contact {
+    background: url("...") center no-repeat;
+  }
+  footer {
+    background-color: var(--primary-color);
+  }
